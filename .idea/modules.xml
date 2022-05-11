@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day_53/Objects-in-lists-practice/Animals/Animals.iml" filepath="$PROJECT_DIR$/Day_53/Objects-in-lists-practice/Animals/Animals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_53/Objects-in-lists-practice/Books/Books.iml" filepath="$PROJECT_DIR$/Day_53/Objects-in-lists-practice/Books/Books.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_48/Calculations/Calculations.iml" filepath="$PROJECT_DIR$/Day_48/Calculations/Calculations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_48/Casting/Casting.iml" filepath="$PROJECT_DIR$/Day_48/Casting/Casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_53/Class-object-constructors2/Class-object-constructors2.iml" filepath="$PROJECT_DIR$/Day_53/Class-object-constructors2/Class-object-constructors2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_48/Conditional-Statements-Practice/Conditional-Statements-Practice.iml" filepath="$PROJECT_DIR$/Day_48/Conditional-Statements-Practice/Conditional-Statements-Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_45/Day_45.iml" filepath="$PROJECT_DIR$/Day_45/Day_45.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_50/Day_50.iml" filepath="$PROJECT_DIR$/Day_50/Day_50.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_51/Day_51.iml" filepath="$PROJECT_DIR$/Day_51/Day_51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_52/Day_52.iml" filepath="$PROJECT_DIR$/Day_52/Day_52.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Full-Stack-103.iml" filepath="$PROJECT_DIR$/.idea/Full-Stack-103.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_47/scanner-practice/Greeting/Greeting.iml" filepath="$PROJECT_DIR$/Day_47/scanner-practice/Greeting/Greeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_47/scanner-practice/HelloThere/HelloThere.iml" filepath="$PROJECT_DIR$/Day_47/scanner-practice/HelloThere/HelloThere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_45/MyApp/MyApp.iml" filepath="$PROJECT_DIR$/Day_45/MyApp/MyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_49/Practicing-Loops/Practicing-Loops.iml" filepath="$PROJECT_DIR$/Day_49/Practicing-Loops/Practicing-Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_49/Practicing-Methods/Practicing-Methods.iml" filepath="$PROJECT_DIR$/Day_49/Practicing-Methods/Practicing-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_47/scanner-practice/Superhero/Superhero.iml" filepath="$PROJECT_DIR$/Day_47/scanner-practice/Superhero/Superhero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_53/Objects-in-lists-practice/TVShows/TVShows.iml" filepath="$PROJECT_DIR$/Day_53/Objects-in-lists-practice/TVShows/TVShows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_47/scanner-practice/VariableInputs/VariableInputs.iml" filepath="$PROJECT_DIR$/Day_47/scanner-practice/VariableInputs/VariableInputs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_46/intro-to-java/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/Day_46/intro-to-java/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_46/intro-to-java/printing/printing.iml" filepath="$PROJECT_DIR$/Day_46/intro-to-java/printing/printing.iml" />
+    </modules>
+  </component>
+</project>
