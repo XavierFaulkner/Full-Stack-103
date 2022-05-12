@@ -43,6 +43,11 @@ public class BankAccount {
         balance -= withdrawalAmount;
     }
 
+    public void transfer(BankAccount a, double amount) {
+        this.withdrawal(amount);
+        a.deposit(amount);
+    }
+
     public String toString() {
         return ("\n" + accountHolder + "'s account balance: $" + balance);
     }
