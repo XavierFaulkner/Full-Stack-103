@@ -1,12 +1,20 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import javax.naming.AuthenticationException;
+
 public class Animals {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
         ArrayList<Animal> animals = new ArrayList<Animal>();
         System.out.println("Animal Menu");
         System.out.println("Entering nothing will stop the loop");
+
+        //using all Animal constructors
+        Animal a = new Animal();
+        Animal b = new Animal("Ace");
+        Animal c = new Animal(true);
+        Animal d = new Animal("spot", true);
 
         //let user input their animals
         while(true) {

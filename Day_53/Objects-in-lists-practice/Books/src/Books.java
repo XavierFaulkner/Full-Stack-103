@@ -5,6 +5,12 @@ public class Books {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
         ArrayList<Book> books = new ArrayList<Book>();
+
+        //Using all book constructors
+        Book x = new Book();
+        Book y = new Book("Twilight");
+        Book z = new Book(1987);
+
         Book one = new Book("The Cat in the Hat", 61, 1957);
         Book two = new Book("The Hunger Games", 384, 2008);
         Book three = new Book("The Giver", 208, 1993);

@@ -2,6 +2,16 @@ public class Animal {
     String name;
     boolean isDog;
 
+    public Animal() {}
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public Animal(boolean isDog) {
+        this.isDog = isDog;
+    }
+
     public Animal(String name, boolean isDog) {
         this.name = name;
         this.isDog = isDog;
@@ -13,6 +23,14 @@ public class Animal {
 
     public boolean getIsDog() {
         return isDog;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setIsDog(boolean isDog) {
+        this.isDog = isDog;
     }
 
     @Override

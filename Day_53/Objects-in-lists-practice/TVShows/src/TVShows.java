@@ -5,6 +5,12 @@ public class TVShows {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
         ArrayList<TvShow> shows = new ArrayList<TvShow>();
+
+        //Using three tvshow constructors
+        TvShow a = new TvShow();
+        TvShow b = new TvShow("Continuum");
+        TvShow c = new TvShow(42);
+
         System.out.println("TV Shows");
         System.out.println("Entering nothing will stop the loop");
         while(true) {

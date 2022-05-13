@@ -3,6 +3,16 @@ public class TvShow {
     private int numOfEpisodes;
     private String genre;
 
+    public TvShow() {}
+
+    public TvShow(String name) {
+        this.name = name;
+    }
+
+    public TvShow(int numOfEpisodes) {
+        this.numOfEpisodes = numOfEpisodes;
+    }
+
     public TvShow(String showName, int numOfEpisodes, String genre) {
         name = showName;
         this.numOfEpisodes = numOfEpisodes;
@@ -19,6 +29,18 @@ public class TvShow {
 
     public String getGenre() {
         return genre;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNumOfEpisodes(int numOfEpisodes) {
+        this.numOfEpisodes = numOfEpisodes;
+    }
+
+    public void genre(String genre) {
+        this.genre = genre;
     }
 
     @Override

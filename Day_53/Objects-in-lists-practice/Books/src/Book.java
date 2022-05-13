@@ -3,6 +3,16 @@ public class Book {
     private int numOfPages;
     private int publicationYear;
 
+    public Book() {}
+
+    public Book(String bookTitle) {
+        title = bookTitle;
+    }
+
+    public Book(int publicationYear) {
+        this.publicationYear = publicationYear;
+    }
+
     public Book(String bookTitle, int numOfPages, int publicationYear) {
         title = bookTitle;
         this.numOfPages = numOfPages;
@@ -19,6 +29,18 @@ public class Book {
 
     public int getPublicationYear() {
         return publicationYear;
+    }
+
+    public void setTitle(String bookTitle) {
+        title = bookTitle;
+    }
+
+    public void setNumOfPages(int numOfPages) {
+        this.numOfPages = numOfPages;
+    }
+
+    public void setPublicationYear(int publicationYear) {
+        this.publicationYear = publicationYear;
     }
 
     @Override
