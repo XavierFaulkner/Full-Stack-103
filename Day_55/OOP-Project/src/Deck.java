@@ -3,6 +3,8 @@ import java.util.Collections;
 
 public class Deck {
     private ArrayList<Card> deck;
+    private Values[] values = Values.values();
+    private Suits[] suits = Suits.values();
 
     public Deck() {
         this.deck = new ArrayList<Card>();
@@ -10,7 +12,12 @@ public class Deck {
 
     public void createFullDeck() {
         // generate cards
-       
+        for(int i = 0; i < suits.length; i++) {
+            Suits cardSuit = suits[i];
+            for(int j = 0; j < values.length; j++) {
+                this.addCard(new Card(cardSuit, values[j]));
+            }
+        }
     }
 
     public void shuffleDeck(){
@@ -42,7 +49,10 @@ public class Deck {
 
     // This will move cards back into the deck to continue playing
     public void moveAllToDeck(Deck moveTo) {
-      
+        for(int i = 0; i < deck.size(); i ++) {
+            moveTo.deck.add(this.deck.get(i));
+        }
+        this.deck = new ArrayList<Card>();
     }
 
     @Override
@@ -53,4 +63,34 @@ public class Deck {
         }
         return response;
     }
+
+    public String getFirstCard() {
+        return deck.get(0).toString() + ", ";
+    }
+
+    public int getFirstCardValue() {
+        return deck.get(0).getValue().value;
+    }
+
+    public int getValue() {
+        int total = 0;
+        for(Card card: deck) {
+            if(card.getValue() != Values.ACE) {
+                total += card.getValue().value;
+            }
+        }
+        for(Card card: deck) {
+            if(card.getValue() == Values.ACE) {
+                if(card.getValue() == Values.ACE) {
+                    if((total + 11) > 21) {
+                        total += 1;
+                    } else {
+                        total += 11;
+                    }
+                }
+            }
+        }
+        return total;
+    }
+
 }
