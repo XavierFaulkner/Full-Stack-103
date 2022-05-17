@@ -57,6 +57,41 @@ public class HashMaps {
 
         mattsIOU.setSum("Arthur", 10.5);
         System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
+
+        //exercise 6
+        System.out.println("\nExercise #6");
+        DictionaryOfManyTranslations dictionary = new DictionaryOfManyTranslations();
+        dictionary.add("lie", "maata");
+        dictionary.add("lie", "valehdella");
+
+        dictionary.add("bow", "jousi");
+        dictionary.add("bow", "kumartaa");
+
+        System.out.println(dictionary.translate("lie"));
+        dictionary.remove("bow");
+        System.out.println(dictionary.translate("bow"));
+
+        //exercise 7
+        System.out.println("\nExercise #7");
+        StorageFacility facility = new StorageFacility();
+        facility.add("a14", "ice skates");
+        facility.add("a14", "ice hockey stick");
+        facility.add("a14", "ice skates");
+
+        facility.add("f156", "rollerblades");
+        facility.add("f156", "rollerblades");
+
+        facility.add("g63", "six");
+        facility.add("g63", "pi");
+
+        facility.remove("f156", "rollerblades");
+
+        System.out.println(facility.contents("f156"));
+
+        facility.remove("f156", "rollerblades");
+
+        System.out.println(facility.storageUnits());
+
     }
 
     //exercise #3 methods
